@@ -4,7 +4,7 @@ int main() {
 	char name[100];
 	
 	printf("Nhap ten cua ban: ");
-	gets("%s", &name);
+	scanf("%s", &name);
 	
 	printf("Xin chao %s\n", name);
 	
